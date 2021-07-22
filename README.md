@@ -1,19 +1,46 @@
 # Telco Customer Data
- briefly covers your process, methodology and findings.
 
-    Take the time to make sure that you craft your story well, and clearly explain your process and findings in a way that shows both your technical expertise and your ability to communicate your results!
-    Begin with framing questions, describe your data source, include relevant, well labeled visualizations that support your conclusions, which come at the end.
-    
+## Overview
+The focus of this project was to predict if a customer will churn and to find out what the likelihood of that is for each customer. The analysis of this company has allowed for a model to be made to predict churn of the customers and the likelihood along with a recommendation to the business to reduce this likelihood. This model can be used by Telco to make better informed decisions on where to allocate customer retention resources and reduce losses in revenue from lost customers.
+ 
 ## Business Problem
+Telco would like to be able to predict whether a customer has a high likelihood of dropping their services and which customers they need to spend more resources on to keep and which ones require the most resources to retain.
 
-Telco needs help identifiying customers who might churn (drop their service) in the next month. We will produce models to predict customer churn with as much precision as is reasonable. Telco has limited resources so they need to know the best way to focus their attention.
-    
-    
 ## Data
-wher it came from
+The data was collected from a Kaggle dataset titled "Telco Customer Churn". It has 21 columns of customer data that is used to predict customer churn. This data was used to create a model to predict if a customer will churn and the percent risk they are to churn. This data was also used to feature engineer new columns that would be more useful for prediction. The data was used to create informative visuals.
+
 ### Source
-explaination of columns
-distrobutions
+The columns used for prediction were:
+
+1. Gender (gender of the customer), 
+2. SeniorCitizen (whether the customer is a senior citizen), 
+3. Partner (whether the customer is married), 
+4. Dependents (whether the customer has children), 
+5. Tenure (the number of months the customer has been with the company), 
+6. PhoneService (whether the customer uses the company for phone service), 
+7. MultipleLines (whether the customer has multiple phone lines), 
+8. InternetService (whether the customer uses the company for internet service), 
+9. OnlineSecurity (whether the customer uses the online security service), 
+10. OnlineBackup (whether the customer uses the online backup service), 
+11. DeviceProtection (whether the customer uses the device protection service), 
+12. TechSupport (whether the customer uses the tech support service), 
+13. StreamingTV (whether the customer uses the TV streaming service), 
+14. StreamingMovies (whether the customer uses the movie streaming service), 
+15. Contract (whether the customer is on a month-to-month, one year, or two year contract), 
+16. PayperlessBilling (whether the customer uses payperless billing), 
+17. PaymentMethod (whether the customer pays by electronic check, mailed check, automatic bank transfer, or credit card), 
+18. MonthlyCharges (The amount the customer is charged each month), 
+19. TotalCharges (the total amount the customer has been charged), and 
+20. Churn (whether the customer has discontinued use of the company in the past month (the target variable)).
+
+Engineered features include:
+
+21. totchg_per_tenure (the amount of the total charge divided by the customer's tenure), 
+22. monthly_div_tot (the customer's monthly charges divided by their total charges), 
+23. single_parent (if the customer has a dependent but does not have a partner), 
+24. phone_and_internet (if the customer uses the company for phone and internet service), 
+25. num_of_internet_services (the number of additional internet services the customer uses), and 
+26. num_of_services (the number of total additional services the customer uses).
     
 ## Process
 
