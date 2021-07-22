@@ -74,7 +74,7 @@ We recommend that Telco focus on customers who are most likely to churn. They mi
  
     project-folder
     |
-    TelcoDataAnalysis.pdf
+    Telco Churn Predction.pdf
     README.md
     data
     images
