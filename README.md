@@ -68,7 +68,7 @@ Our final model had an AUC score of 0.83 on the testing data and all features ha
 
 We recommend that Telco focus on customers who are most likely to churn. They might provide discounts or coupons to these customers. Additionally, Telco should try to sell longer contract terms and market those to people who are likely to churn. Telco could also raise the price of month-to-month contracts to make longer term ones more enticing.
 
-'''
+
  
     project-folder
     |
@@ -88,4 +88,4 @@ We recommend that Telco focus on customers who are most likely to churn. They mi
                   |
                   Griffin
                   Warren
-'''             
+   
