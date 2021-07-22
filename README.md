@@ -48,7 +48,9 @@ After getting the data, we took the time to explore the features. In the EDA not
 
 Next, I preprocessed the data by identifying column types and making lists of each column name. Then, I could apply encoding, scaling, or imputing as appropriate. Finally, we plotted each variable against churn and not churn. An example plot is below. It shows contract type for churn or not churn.
 
-![Example of a plot showing contract type by churn](images/contract_type.png)
+![Example of a plot showing contract type by churn](images/churnedcontract.png)
+![Example of a plot showing contract type by churn](images/notchurnedcontract.png)
+
 
 After looking at the data and getting familiar with the processing that we needed, I made a new notebook called Initial Processing. In this notebook, I made train, validation, and testing data sets. Next, I setup a process for imputing missing data, encoding categorical data, and scaling numerical data. Finally, Each new dataset was saved to a csv so that Griffin and I could easily work from the same data.
 
